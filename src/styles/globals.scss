@@ -1,8 +1,8 @@
-@use '_colors' as colors;
-@use '_fonts' as fonts;
-@use '_typography' as typography;
-@use 'media' as media;
-@use 'normalize.css' as normalize;
+@forward '_colors';
+@forward '_fonts';
+@forward '_typography';
+@forward 'media';
+@forward 'normalize.css';
 
 html {
   -webkit-box-sizing: border-box;
