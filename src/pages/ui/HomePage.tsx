@@ -1,9 +1,12 @@
-import {Home} from "../../components/Home";
+import {User} from "../../components/User";
+import {getAllUsers} from "../../components/User/maps/userMaps.tsx";
 
 export const HomePage = () => {
 
 
     return (
-        <Home />
+        <User>
+            {getAllUsers}
+        </User>
     );
 };
