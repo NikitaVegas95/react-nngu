@@ -5,7 +5,7 @@ interface IProps {
     children: ReactNode
 }
 
-export const User = ({ children }: IProps)  => {
+export const Container = ({ children }: IProps)  => {
 
     return (
         <div className={style.container}>
